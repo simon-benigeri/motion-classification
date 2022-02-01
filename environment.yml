@@ -1,0 +1,25 @@
+name: motion-classification
+channels:
+  - anaconda
+  - conda-forge
+  - pytorch
+  - defaults
+dependencies:
+  - python<=3.9
+  - pip
+  - numpy
+  - pandas
+  - nltk
+  - jupyterlab
+  - tqdm
+  - scikit-learn
+  - imbalanced-learn
+  - snorkel
+  - spacy
+  - spacy-model-en_core_web_sm
+  - matplotlib
+  - pytorch
+  - tensorboardx
+  - pip:
+    - snorkel-metal
+    
